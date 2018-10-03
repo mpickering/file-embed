@@ -24,6 +24,7 @@ library
                    , template-haskell
                    , filepath
     exposed-modules: Data.FileEmbed
+    pkgconfig-depends: zlib
     ghc-options:     -Wall
 
 test-suite test
